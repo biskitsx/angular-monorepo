@@ -7,6 +7,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-architects/module-federation": "^19.0.3",
     "@angular/common": "~19.2.0",
     "@angular/compiler": "~19.2.0",
     "@angular/core": "~19.2.0",
@@ -14,9 +15,10 @@
     "@angular/platform-browser": "~19.2.0",
     "@angular/platform-browser-dynamic": "~19.2.0",
     "@angular/router": "~19.2.0",
+    "@nx/angular": "21.1.1",
+    "lodash": "^4.17.21",
     "rxjs": "~7.8.0",
-    "zone.js": "~0.15.0",
-    "@nx/angular": "21.1.1"
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~19.2.0",
@@ -43,6 +45,7 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.17",
     "@types/node": "18.16.9",
     "@typescript-eslint/utils": "^8.19.0",
     "angular-eslint": "^19.2.0",
